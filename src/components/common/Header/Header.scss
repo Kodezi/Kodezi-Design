@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+@import url('http://fonts.cdnfonts.com/css/gotham');
+
+.navbar-wrapper {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  padding: 20px 50px;
+  box-shadow: 28px 0px 7px rgba(0, 0, 0, 0.12);
+
+  @media (min-width: 1600px) {
+    min-height: 122px;
+    padding-left: 387px;
+    padding-right: 387px;
+  }
+
+  .nav-links {
+    display: flex;
+    align-items: center;
+
+    a {
+      margin: 0 20px;
+      text-decoration: none;
+      color: #2c2c2c;
+      font-family: 'Gotham', sans-serif;
+      
+    font-weight: 400;
+
+
+
+      &:last-child {
+        padding: 6px 22px;
+        background-color: #fff;
+        color: #333;
+        border-radius: 50px;
+        font-family: 'Gotham', sans-serif;
+            font-weight: 400;
+      }
+
+      &.user-login {
+        padding: 0;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        width: 38px;
+        height: 38px;
+
+        span {
+          margin-left: 10px;
+        }
+      }
+
+      @media (max-width: 767px) {
+        display: none;
+      }
+    }
+  }
+
+}

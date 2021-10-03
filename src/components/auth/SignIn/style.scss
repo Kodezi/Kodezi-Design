@@ -1,0 +1,270 @@
+@import url("http://fonts.cdnfonts.com/css/gotham");
+
+input,
+textarea {
+  &:focus {
+    outline: 0;
+  }
+}
+
+button {
+  cursor: pointer;
+}
+
+.sign-in-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 140px 0;
+
+  @media (max-width: 767px) {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .field-wrapper {
+    margin-top: 40px;
+  }
+}
+
+.sub-section {
+  width: 50%;
+  max-width: 35%;
+  margin: 0 70px;
+
+  @media (max-width: 767px) {
+    width: 100%;
+    max-width: 100%;
+    padding: 20px;
+  }
+
+  .hero-img {
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.left-side {
+  text-align: center;
+}
+
+.heading {
+  color: #3e3b3b;
+  margin: 40px 15px 0;
+  font-family: 'Gotham', sans-serif;
+  font-size: 47px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 58px;
+}
+
+.right-side {
+  .heading {
+    margin: 0;
+    padding: 0;
+    // background: -webkit-linear-gradient(#b1a7e4, #8478ce);
+    // -webkit-background-clip: text;
+    // -webkit-text-fill-color: transparent;
+    font-family: 'Gotham', sans-serif;
+  }
+
+  .sub-heading {
+    width: 100%;
+    margin: 0 auto;
+    padding: 16px 0 30px;
+    text-align: left;
+  }
+}
+
+.sub-heading {
+  width: 93%;
+  margin: 0 auto;
+  color: #3e3b3b;
+  font-family: 'Gotham', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.sign-in-btn {
+  margin: 20px 0;
+  padding: 19px 50px;
+  background: linear-gradient(180deg, #b1a7e4 0%, #8478ce 100%);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.04);
+  border-radius: 28px;
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+}
+
+.google-login-btns {
+  display: flex;
+  justify-content: space-between;
+
+  button {
+    background-color: transparent;
+    color: #3e3b3b;
+    width: 48%;
+    border-radius: 10px;
+    border: 0.5px solid #1976d2;
+    padding: 15px 0;
+    font-family: 'Gotham', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15px;
+  }
+}
+
+button {
+  i {
+    margin-right: 10px;
+  }
+}
+
+.or-separate {
+  margin: 38px 0;
+  display: flex;
+  align-items: center;
+
+  span {
+    margin: 0 10px;
+    font-family: 'Gotham', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0px;
+    text-transform: capitalize;
+  }
+
+  .inner-sep {
+    background-color: #000;
+    height: 1px;
+    width: 100%;
+  }
+}
+
+.custom-flex {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+
+  .column {
+    width: 48%;
+  }
+}
+._p_a_r_t {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-height: 170vh;
+  bottom: 0;
+  background-image: linear-gradient(to right, #f4e4fe, #f3f2fb);
+  z-index: -1;
+  overflow: hidden;
+  text-overflow: none;
+}
+.custom-flex .column input,
+.field-wrapper input {
+  width: 100%;
+  border: 1px solid #dbdbdb;
+  border-radius: 10px;
+  min-height: 50px;
+  padding: 0 20px;
+  font-family: "Gotham", sans-serif;
+  padding-inline-start: 50px;
+  &::placeholder {
+    color: #333;
+  }
+  .OP_AOAO {
+    padding-inline-start: 0px;
+  }
+}
+
+.email_image_png {
+  position: absolute;
+  margin: 15px 0px 0px 16px;
+}
+.password_image_png {
+  position: absolute;
+  margin: 15px 0px 0px 16px;
+}
+.password_show_image {
+  position: absolute;
+  margin: 15px 0px -2px -40px;
+}
+.User_image_png {
+  position: absolute;
+  margin: 14px 0px 0px 14px;
+}
+.email_address_image_ong {
+  position: absolute;
+  margin: 14px 0px 0px 14px;
+}
+.label {
+  margin-bottom: 7px;
+  color: #3e3b3b;
+  font-family: "Gotham", sans-serif;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.field-wrapper-checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .label {
+    margin: 30px 16px;
+    font-family: "Gotham", sans-serif;
+  }
+
+  input {
+    width: 24px;
+    height: 24px;
+  }
+}
+
+.error-msg {
+  color: red;
+}
+
+.submit-btn {
+  width: 100%;
+  min-height: 68px;
+  background: linear-gradient(180deg, #b1a7e4 0%, #8478ce 100%);
+  color: #fff;
+  border: 0;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: "Gotham", sans-serif;
+}
+
+.submit-buttons {
+  &.sign-in {
+    margin-top: 60px;
+  }
+}
+
+.forget-password {
+  display: block;
+  margin-top: 16px;
+  color: #3e3b3b;
+  font-family: "Gotham", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0px;
+  letter-spacing: 0px;
+  text-align: right;
+}

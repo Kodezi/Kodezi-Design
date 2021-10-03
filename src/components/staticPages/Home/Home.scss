@@ -1,0 +1,140 @@
+@import url("http://fonts.cdnfonts.com/css/gotham");
+.section-container {
+  &.home-container {
+    background-color: rgba(229, 229, 229, 0.6);
+  }
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 150px;
+  min-height: 48px;
+  border-radius: 28px;
+  font-family: "Gotham", sans-serif;
+}
+
+.home-wrapper {
+  padding: 200px 0 0 0;
+  #aoaiai_aoa {
+    width: 100%;
+    position: absolute;
+    right: 0;
+    left: 0;
+    height: 600px;
+    background-image: linear-gradient(to right, #e5cff6, #f5f6fc);
+    filter: blur(70px);
+    z-index: -1;
+    top: 0;
+  }
+  .sub-section {
+    &__one {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .left-side {
+        width: 70%;
+        text-align: left;
+      }
+      .right-side {
+        width: 30%;
+      }
+
+      .heading {
+        font-size: 70px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 84px;
+        margin: 0;
+        font-family: "Gotham", sans-serif;
+      }
+      .sub-heading {
+        margin: 16px 0 31px 0;
+        text-align: left;
+        font-family: "Gotham", sans-serif;
+      }
+
+      .btn-link {
+        min-width: 150px;
+        height: 48px;
+        background-color: #fff;
+        color: #2c2c2c;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 100;
+        line-height: 26px;
+        letter-spacing: 0px;
+        text-align: left;
+        font-family: "Gotham", sans-serif;
+      }
+    }
+
+    &__two {
+      padding: 140px 0 91px 0;
+      text-align: center;
+      .O_APAO_AIA {
+        width: 100%;
+        position: absolute;
+        right: 0;
+        left: 0;
+        height: 600px;
+        background-image: linear-gradient(to right, rgba(175, 53, 244, 0.6), #f5fafe);
+        filter: blur(144px);
+        z-index: -1;
+      }
+      .heading {
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 46px;
+        letter-spacing: 0em;
+        font-family: "Gotham", sans-serif;
+      }
+
+      .sub-heading {
+        padding: 16px 0 91px 0;
+        font-family: "Gotham", sans-serif;
+      }
+
+      .try-now-btn {
+        min-width: 150px;
+        height: 48px;
+        margin-top: 91px;
+        background-color: #b1a7e4;
+        color: #ffff;
+        font-family: "Gotham", sans-serif;
+      }
+    }
+
+    &__three {
+      padding-top: 145px;
+
+      .main {
+        margin: 0 -50px;
+        padding: 50px;
+      }
+   
+    }
+  }
+}
+
+.logo-section {
+  display: flex;
+  justify-content: space-between;
+
+  .logo-tile {
+    min-width: 264px;
+    text-align: center;
+    min-height: 113px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+  }
+}
+
+.learning-card-section {
+  padding-top: 120px;
+}
